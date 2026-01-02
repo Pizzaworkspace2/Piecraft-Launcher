@@ -8,7 +8,7 @@ const welcome = document.getElementById("welcome");
 login.addEventListener("input", function(event) {
   user = event.target.value;
 
-  welcome.textContent = "Welcome, " user;
+  welcome.textContent = "Welcome, " + user;
 
 });
   
