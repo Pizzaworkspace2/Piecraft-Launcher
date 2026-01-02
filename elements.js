@@ -10,6 +10,7 @@ login.addEventListener("input", function(event) {
 
   welcome.textContent = "Welcome, " + user;
 
+ });
 });
   
 
